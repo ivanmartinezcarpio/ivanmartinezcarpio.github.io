@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Benton Sans;
+    src: url(fonts/BentonSansLight.otf);
+}
+
+@font-face {
+    font-family: Benton Sans Black;
+    src: url(fonts/BentonSansBlack.otf);
+}
+
+body {
+    font-size: 18px;
+    margin: 0 auto;
+    font-family: Benton Sans;
+
+}
+
+span.cabecera {
+    color: #00e28d;
+}
+
+span.black {
+    color: black;
+    font-family: Benton Sans Black;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+.letraCapital {
+    padding: 8px 14.4px 20px 0;
+    float: left;
+    font-size: 140pt;
+    font-weight: bold;
+    font-family: Benton Sans Black;
+    margin: 20px 0 20px 0;
+}
+
+.art1 {
+    line-height: 23pt;
+
+}
+
+.art1 > p {
+    margin-bottom: 35.008px;
+}
+
+#barra {
+    text-align: center;
+    height: 65px;
+    background-color: #003245;
+    padding: 2px 0 0 0;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#barra > p {
+    color: white;
+    font-size: 12pt;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+header > img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 45pt;
+    font-family: Georgia;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35 pt;
+}
+
+h2 {
+    font-family: Benton Sans Black;
+    margin-bottom: 15.008px;
+}
+
+header > p {
+    width: 42%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+article {
+    width: 42%;
+    margin: 0 auto;
+}
+
+.imagenes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner {
+    display: block;
+    margin: 50px auto 50PX auto;
+    width: 43%
+}
+
+a.enlaceTexto {
+    font-family: Benton Sans Black;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    color: black;
+}
+
+a.enlaceTexto:hover {
+    font-family: Benton Sans Black;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+#bannerproyect {
+    background-color: lightgray;
+    width: 43%;
+    margin: 0 auto;
+    padding: 0 0 0 4%;
+    
+}
+
+#bannerproyect > p {
+    float: left;
+    font-size: 9pt;
+    padding: 0px 0 3% 3%;
+}

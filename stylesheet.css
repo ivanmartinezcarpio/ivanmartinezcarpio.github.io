@@ -1,0 +1,12 @@
+body {
+font-family: Verdana;
+background-color: beige;
+}
+
+#cabecera {
+    margin: 0 0 60px 0;
+}
+
+h1 {
+    color: burlywood;
+}
