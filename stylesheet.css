@@ -10,3 +10,8 @@ background-color: burlywood;
 h1 {
     color: white;
 }
+
+ul li{
+    list-style: none;
+    padding: 0 0 1% 0;
+}
