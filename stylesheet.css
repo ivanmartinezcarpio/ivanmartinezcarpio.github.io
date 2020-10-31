@@ -1,17 +1,44 @@
 body {
 font-family: Verdana;
-background-color: burlywood;
+background-color:rosybrown;
+    text-align: center;
+    margin: 0 auto;
+
+   
 }
 
 #cabecera {
-    margin: 0 0 60px 0;
+    background-color: #E9BCBC;
+    padding: 1% 0 2% 0;
+    border: #E9BCBC outset 2px  
 }
 
 h1 {
     color: white;
+
 }
 
-ul li{
-    list-style: none;
-    padding: 0 0 1% 0;
+.practicas {
+    margin: 2% 0;
+}
+
+.practicas p {
+    visibility: hidden;
+}
+
+.practicas a{
+color: white;
+font-weight: bold;
+}
+
+.practicas:hover > p {
+    visibility: visible;
+}
+
+p {
+    color: white;
+    background-color: #E9BCBC;
+        border: #E9BCBC outset 2px;
+    margin: -1px auto;
+    width: 50%
 }
