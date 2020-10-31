@@ -12,18 +12,29 @@ h1 {
     text-align: center;
     color: white;
     border-top-color: white;
-    border-top: solid 3px;;
+    border-top: solid 3px;
+    ;
     border-bottom-color: white;
-    border-bottom: solid 3px;;
+    border-bottom: solid 3px;
+    ;
 }
+
 h2 {
     color: white;
     margin: 0 0 2% 2%;
 }
 
+h3 {
+    color: white;
+    text-align: right;
+    margin: -2% 0 0 0;
+    padding: 0 10% 0 0;
+}
+
 #imagenes {
     margin: 6% 0 0 0
 }
+
 img {
     width: 33%;
     height: auto;
@@ -32,5 +43,4 @@ img {
 
 .imagenGaleria:hover img {
     filter: saturate(1);
-    width: 30%;
 }
