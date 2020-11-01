@@ -5,15 +5,12 @@ body {
 }
 
 header {
-    margin: 4% 35% 0 35%;
+    margin: 3% 35% 0 35%;
 }
 
 h1 {
     text-align: center;
     color: white;
-    border-top-color: white;
-    border-top: solid 3px;
-    ;
     border-bottom-color: white;
     border-bottom: solid 3px;
     ;
@@ -32,7 +29,7 @@ h3 {
 }
 
 #imagenes {
-    margin: 6% 0 0 0
+    margin: 6% 0 1% 0
 }
 
 img {
