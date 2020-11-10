@@ -50,11 +50,16 @@ span {
     margin: 6% auto 5% auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
+
 }
 
-.internal img{
+.internal {
+    margin: 1%;
+}
+
+.internal img {
     width: 100%
-    
 }
 
 img {
@@ -68,11 +73,16 @@ a {
 .imagenGaleria:hover img {
     filter: saturate(1);
 }
+
 .imagenGaleria:hover p {
     visibility: visible;
 }
 
-#internal1, #internal2, #internal3{
-flex: 1;
+#internal1,
+#internal3 {
+    flex: 1;
 }
 
+#internal2 {
+    flex: 2;
+}
