@@ -15,6 +15,11 @@ body {
 
 }
 
+#barra {
+    position: sticky;
+    top: 0;
+}
+
 span.cabecera {
     color: #00e28d;
 }
