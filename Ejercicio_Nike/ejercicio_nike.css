@@ -84,7 +84,7 @@ ul.redirecciones {
     display: inline;
     color: white;
     float: left;
-    margin: 0 15px 0 2px;
+    margin: 0 15px 0 5px;
 }
 
 a:link {
@@ -110,7 +110,8 @@ a[href="#"]:hover {
 }
 
 .sticky:hover li {
-padding: 0 0 0 5px;
+position: relative;
+left: 1%;
 }
 
 
