@@ -109,4 +109,8 @@ a[href="#"]:hover {
     display: block;
 }
 
+.sticky:hover li {
+padding: 0 0 0 5px;
+}
+
 
