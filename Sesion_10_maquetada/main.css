@@ -32,6 +32,12 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+}
+
 p {
     color: white;
     font-size: 10pt;
@@ -56,14 +62,77 @@ span {
 
 .internal {
     margin: 1%;
+    position: relative;
 }
 
 .internal img {
-    width: 100%
+    display: block;
+    width: 100%;
+    height: auto;
+        filter: saturate(0);
 }
 
-img {
-    filter: saturate(0);
+.internal:hover .overlay {
+  height: 23%;
+}
+
+.internal:hover .overlayRojo {
+  height: 23%;
+}
+
+.internal:hover .overlayVerde {
+  height: 23%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+    opacity: .7;
+}
+
+.overlayRojo {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+    opacity: .7;
+}
+
+.overlayVerde {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: green;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+    opacity: .7;
+}
+
+.textoOverlay {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 a {
