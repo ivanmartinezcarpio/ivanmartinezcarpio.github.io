@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(fonts/SourceSansPro-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Source Sans Pro
+}
+
+ul {
+    list-style: none;
+}
+
+
+.contenido {
+    background-image: url(img/fondo-1400x860.jpg);
+    background-size: cover;
+    height: 800px;
+    margin: 0, auto, 0, auto;
+    position: relative;
+}
+
+#bannerAdobe {
+    position: absolute;
+    left: 7%;
+}
+
+#superiorDerecha {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    width: 20%;
+    opacity: 70%
+}
+
+#superiorDerecha li {
+    display: inline;
+    padding: 5%;
+}
+
+#superiorDerecha a {
+    color: white;
+    text-decoration: none;
+}
+
+.bloqueTexto {
+    width: 34%;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+}
+
+.bloqueEnlace {
+    display: block;
+    border-radius: 5px;
+    background-color: #2b9af3;
+    width: 150px;
+    height: 40px;
+    margin-top: 7%
+}
+
+.bloqueEnlace a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 6%;
+    color: white;
+}
+
+.masInfo {
+    color: #2b9af3;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.bloqueCosmos {
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+    width: 35%;
+
+}
+
+.bloqueCosmos ul {
+    padding: 0;
+    margin-bottom: 0
+}
+
+.bloqueCosmos li {
+    display: inline-block;
+    margin: 0 3% 0 2%
+}
+
+.bloqueCosmos li.imgLista {
+    margin: auto -1% auto 1%;
+    padding-top: 80px:
+}
+
+
+#tituloCosmos {
+    border-bottom-color: black;
+    box-sizing: border-box;
+    border-bottom: solid 1px;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+ul.inline {
+    margin 0;
+    align-items: center;
+}
+
+.piesContainer {
+    position: relative;
+}
+
+.pieOfertas {
+    position: absolute;
+    top: 0;
+    color: white;
+     padding: 2% 0;
+    background-image: url(img/pieOfertas.png);
+    background-size: cover;
+    width: 100%;
+    height: 20px;
+    z-index: 15;
+  }
+
+.pieOfertas ul {
+    margin: 0
+}
+.pieOfertas li {
+    display: inline;
+    margin: 0 1% 0 0%;
+}
+
+span.amarillo {
+    color: #fbcd00;
+    display: inline;
+
+}
+
+.pieCloudContainer {
+    position: absolute;
+top: 60px;
+    left: 0;
+    background-color: #2a2829;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start
+    z-index: 0;
+}
+
+.internal {
+    display: flex;
+    margin: 2% 2% 2% 2%;
+    flex: 1
+}
+
+.internal img {
+    margin: 10% 7%;
+    width: 43px;
+    height: 31px;
+}
+
+.internal p {
+    color: white
+}
+
+
+
+.titulillo {
+    font-size: 14pt;
+}
+
+a.enlacePie {
+    color: white;
+    text-decoration: none;
+}
