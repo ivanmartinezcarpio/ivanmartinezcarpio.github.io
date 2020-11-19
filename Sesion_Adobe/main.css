@@ -82,21 +82,18 @@ ul {
 
 }
 
-.bloqueCosmos ul {
-    padding: 0;
-    margin-bottom: 0
+.creadoPor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.creadoPorElement {
+    margin-right: 4%;
 }
 
-.bloqueCosmos li {
-    display: inline-block;
-    margin: 0 3% 0 2%
+.creadoPorElementImg {
+    margin: 0 1%;
 }
-
-.bloqueCosmos li.imgLista {
-    margin: auto -1% auto 1%;
-    padding-top: 80px:
-}
-
 
 #tituloCosmos {
     border-bottom-color: black;
@@ -128,7 +125,8 @@ ul.inline {
   }
 
 .pieOfertas ul {
-    margin: 0
+    margin: 0;
+
 }
 .pieOfertas li {
     display: inline;
@@ -148,7 +146,7 @@ top: 60px;
     background-color: #2a2829;
     display: flex;
     flex-direction: row;
-    align-items:flex-start
+    align-items:flex-start;
     z-index: 0;
 }
 
