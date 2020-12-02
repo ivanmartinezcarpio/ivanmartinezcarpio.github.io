@@ -1,0 +1,59 @@
+* {
+    margin: 1% auto 0 auto;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 30pt;
+    text-align: center;
+}
+
+p {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.caja {
+    box-sizing: border-box;
+    border-style: dashed;
+    width: 30%;
+    height: 10em;
+    overflow: scroll;
+    background-color: white;
+}
+
+#caja1 {
+    font-family: 'Nerko One', cursive;
+}
+
+#caja2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#caja3 {
+    font-family: 'Lobster', cursive;
+}
+
+#caja4 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#caja5 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#caja6 {
+    font-family: 'Source Code Pro', monospace;
+}
