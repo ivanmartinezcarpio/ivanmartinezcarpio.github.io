@@ -25,6 +25,12 @@ div {
 
 #publicity {
     background-color: blue;
+    height: 80vh;
+}
+
+#publicity2 {
+    background-color: blue;
+    height: 100vh;
 }
 
 #pie {
