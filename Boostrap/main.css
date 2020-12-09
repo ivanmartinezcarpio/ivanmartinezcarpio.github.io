@@ -1,0 +1,68 @@
+div {
+    box-sizing: border-box;
+}
+#logo {
+    background-color: beige;
+    height: 10vh;
+    margin: auto;
+}
+
+
+#menu {
+    background-color: aqua;
+}
+
+#menu2 {
+    background-color: aqua;
+    margin: 10vh 0;
+}
+
+#content {
+    background-color: bisque;
+    height: 80vh;
+    overflow: auto;
+}
+
+#publicity {
+    background-color: blue;
+}
+
+#pie {
+    background-color: greenyellow;
+    height: 10vh;
+}
+
+p {
+    margin: 2%;
+}
+
+
+
+.listaIndice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+
+@media (max-width: 320px) {
+    #menu2 {
+        margin: 0;
+    }
+    
+    #logo {
+        margin: 0;
+    }
+}
+
+@media (max-width: 568px) {
+    #menu2 {
+        margin: 0;
+    }
+    
+    #logo {
+        margin: 0;
+    }
+}
