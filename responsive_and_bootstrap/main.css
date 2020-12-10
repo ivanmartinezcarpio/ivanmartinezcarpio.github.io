@@ -1,0 +1,149 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: beige;
+}
+
+.color {
+    color: burlywood;
+    font-size: bold;
+}
+
+
+
+header {
+    text-align: center;
+    
+}
+
+header img {
+    max-width: 10vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
+
+h1{
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#contenido {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+#menu{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#enlaceMenu {
+    border: outset 2px;
+    background-color: bisque;
+    width: 70%;
+    height: 3vw;
+       
+}
+
+#enlaceMenu a{
+    padding: 0.5vw;
+    display: block;
+    color: burlywood;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace; 
+}
+
+#centro {
+    background-color: white;
+}
+
+#derecha {
+    padding-right: 3vw;
+}
+
+
+
+
+@media (max-width: 320px) {
+  
+    
+    header img {
+    max-width: 40vw;
+}
+    
+   
+    #menu {
+
+        flex-direction: row;
+    }
+    
+    #enlaceMenu {
+        height: 8vw;
+        font-size: 7pt;
+    }
+    
+}
+
+@media (max-width: 568px) {
+    header img {
+    max-width: 20vw;
+}
+    
+    h1{ font-size:  19pt;}
+    #derecha {
+        font-size: 8pt;
+    }
+    
+    #menu {
+        font-size: 6pt;
+    }
+    
+    #enlaceMenu {
+        max-width: 100%;
+        padding-right: 9vw;
+        height: 5vw;
+        font-size: 10pt;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    header img {
+    max-width: 20vw;
+}
+    
+    #contenido {
+        flex-direction: column;}
+    
+    #enlaceMenu {
+        height: 6vw;
+        padding:0 5vw 1.2vw 0;
+    }
+    
+     #menu {
+        margin: auto 2vw 3vw 2vw;
+        flex-direction: row;
+    }
+    
+    #derecha {
+        margin: 1vw auto auto auto;
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 1024px) {
+     header img {
+    max-width: 15vw;
+}
+    #enlaceMenu {
+        width:85%;
+    }
+}
+
+
