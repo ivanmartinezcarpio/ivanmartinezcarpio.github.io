@@ -1,0 +1,118 @@
+* {box-sizing: border-box}
+body {
+    margin: auto 2%;
+}
+
+.tagLine {
+    font-size: 17pt;
+    margin: 6vh 0 0 0;
+    color: #00a82e;
+    text-align: center;
+}
+
+nav {
+    padding: 4vh 0 3vh 0;
+    border-bottom: solid 1pt #cccccc
+}
+
+#barra {
+
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+   
+}
+
+section {
+    margin-top: 10vh;
+    align-items: center;
+    padding-bottom: 10vh;
+    border-bottom: solid 1pt #cccccc 
+}
+
+#texto h1 {
+    color: cornflowerblue;
+}
+
+#texto {
+    font-size: 15pt;
+   
+    padding-bottom: 20vh;
+}
+
+#botonesTexto {
+    margin-top: 4vh;
+}
+
+#boton1 {
+    
+    
+    border: outset 1px;
+    border-radius: 15px;
+}
+
+#boton1 a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#boton2 {
+    
+}
+
+#boton2 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+
+#menu a{
+    color: #00a82e;
+    text-decoration: none;
+}
+
+
+#usuario a{
+    color: #00a82e;
+    text-decoration: none;
+}
+
+#galeria {
+    border-bottom: solid 1pt #cccccc;
+    
+}
+
+#galeria img{
+    max-width: 50vh;
+}
+
+#galeria p{
+    max-width: 50vh;
+}
+
+#card {
+    width: 50vh;
+    padding: 0
+}
+
+.container { margin-top: 10vh;}
+
+footer {
+     align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 20vh;
+}
+
