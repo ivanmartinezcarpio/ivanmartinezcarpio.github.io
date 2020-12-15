@@ -99,6 +99,10 @@ section {
 
 }
 
+.card {
+    height: 65vh;
+}
+
 .container {
     margin-top: 10vh;
 }
