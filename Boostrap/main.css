@@ -1,21 +1,26 @@
+body {margin: 0;}
 div {
     box-sizing: border-box;
 }
 #logo {
     background-color: beige;
     height: 10vh;
-    margin: auto;
+    
+    
 }
 
 
 #menu {
     background-color: aqua;
+   
 }
 
 #menu2 {
     background-color: aqua;
-    margin: 10vh 0;
+    height: 80vh;
+    
 }
+
 
 #content {
     background-color: bisque;
@@ -24,14 +29,17 @@ div {
 }
 
 #publicity {
-    background-color: blue;
-    height: 80vh;
+background-color: blue;
+   height: 80vh;
+    margin: 0;
 }
 
 #publicity2 {
-    background-color: blue;
-    height: 100vh;
+background-color: blue;
+   height: 100vh;
+    margin: 0;
 }
+
 
 #pie {
     background-color: greenyellow;
@@ -54,21 +62,30 @@ p {
 
 
 @media (max-width: 320px) {
-    #menu2 {
-        margin: 0;
+    #menu {
+        height: 4vh;
     }
     
-    #logo {
-        margin: 0;
+    #menu2 {
+        height: 4vh;
+    }
+    
+    #publicity {
+        height: 30vh;
     }
 }
 
 @media (max-width: 568px) {
+    #menu {
+        height: 8vh;
+    }
     #menu2 {
-        margin: 0;
+        height: 8vh;
     }
     
-    #logo {
-        margin: 0;
+ 
+    publicity {
+        height: 30vh;
     }
+ 
 }
