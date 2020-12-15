@@ -1,6 +1,9 @@
-* {box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
+
 body {
-    margin: auto 2%;
+    
 }
 
 .tagLine {
@@ -22,16 +25,22 @@ nav {
     justify-content: space-between;
 }
 
-ul li{
+#logo {
+    max-width: 60%;
+    padding-bottom: 4vh
+}
+
+
+ul li {
     list-style: none;
-   
+
 }
 
 section {
     margin-top: 10vh;
     align-items: center;
     padding-bottom: 10vh;
-    border-bottom: solid 1pt #cccccc 
+    border-bottom: solid 1pt #cccccc
 }
 
 #texto h1 {
@@ -40,7 +49,7 @@ section {
 
 #texto {
     font-size: 15pt;
-   
+
     padding-bottom: 20vh;
 }
 
@@ -49,22 +58,20 @@ section {
 }
 
 #boton1 {
-    
-    
+
+
     border: outset 1px;
     border-radius: 15px;
 }
 
-#boton1 a{
+#boton1 a {
     display: inline-block;
     text-decoration: none;
     color: black;
     text-align: center;
 }
 
-#boton2 {
-    
-}
+#boton2 {}
 
 #boton2 a {
     text-decoration: none;
@@ -72,47 +79,48 @@ section {
     text-align: center;
 }
 
-#menu li{
-    display: inline;
-    
-}
 
+.divisor {display: none}
 
-#menu a{
+#menu a {
     color: #00a82e;
     text-decoration: none;
 }
 
 
-#usuario a{
+#usuario a {
     color: #00a82e;
     text-decoration: none;
 }
 
 #galeria {
+    padding-bottom: 10vh;
     border-bottom: solid 1pt #cccccc;
-    
+
 }
 
-#galeria img{
-    max-width: 50vh;
+.container {
+    margin-top: 10vh;
 }
-
-#galeria p{
-    max-width: 50vh;
-}
-
-#card {
-    width: 50vh;
-    padding: 0
-}
-
-.container { margin-top: 10vh;}
 
 footer {
-     align-items: center;
+    align-items: center;
     align-content: center;
     justify-content: space-between;
     padding-bottom: 20vh;
 }
 
+@media (min-width: 1024px) {
+    #menu li{
+        display: inline;
+    }
+    .divisor {
+       display: inherit;
+    }
+    
+    #logo {
+    max-width: auto;
+    padding-bottom: 0;
+}
+
+}
