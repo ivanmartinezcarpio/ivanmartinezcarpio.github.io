@@ -1,0 +1,134 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+
+
+
+
+#demo {
+    background-color: #222222;
+
+}
+
+#encabezado {
+    height: 80vh;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    padding: 20vw;
+}
+
+
+
+ul.enlaces li {
+    display: inline-block;
+    padding: 0 40px 0 0;
+
+}
+
+
+#tituloSubtitulo {
+    padding-left: 10vw;
+}
+
+#cuerpo {
+    padding-left: 10vw;
+    max-width: 90vw;
+    margin-bottom: 5vh;
+}
+
+#lista {
+    padding: 5vh 0 5vh 10vw;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 30pt;
+    line-height: 65px;
+    max-width: 700px
+}
+
+h2 {
+    color: lightgray;
+    font-size: 15pt;
+    line-height: 35px;
+}
+
+p {
+    font-size: 20pt;
+    font-weight: lighter;
+}
+
+#pieDePagina {
+    background-color: #22201F;
+    padding-left: 10vw;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul.redirecciones {
+    color: white;
+    font-size: 15pt;
+    line-height: 40pt;
+    padding: 2vh 0;
+}
+
+
+a:link {
+    color: lightgray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#lista a[href="#"]:hover {
+    text-decoration: line-through;
+}
+
+
+@media (min-width: 1024px) {
+    #cuerpo {
+        padding-left: 20vw;
+        max-width: 70vw;
+    }
+
+    #encabezado {
+
+        background-image: url(img/fondo.jpg);
+        background-size: cover;
+        height: 200vh;
+
+    }
+
+    .carousel-inner img {
+        padding-left: 30vw;
+    }
+
+    #tituloSubtitulo {
+        padding-left: 20vw;
+    }
+
+    #lista {
+        padding: 10vh 0 20vh 20vw;
+    }
+
+    #pieDePagina {
+        padding-left: 20vw;
+    }
+}
