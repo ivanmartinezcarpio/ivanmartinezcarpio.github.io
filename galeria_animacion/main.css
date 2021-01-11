@@ -176,6 +176,21 @@ a {
     margin-bottom: 10%;
 }
 
+
+
+#div-cookies {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+   
+    padding: 7px;
+    text-align: center;
+    z-index: 99;
+}
+
+
 @media (max-width: 1024px) {
     .mapa {
     margin-left: 5%;
