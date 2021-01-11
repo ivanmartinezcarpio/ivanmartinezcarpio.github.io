@@ -1,0 +1,1 @@
+ alert("Al entrar en este sitio aceptas el uso de cookies");
