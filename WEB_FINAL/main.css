@@ -23,11 +23,6 @@ body::-webkit-scrollbar-thumb {
     font-size: bold;
 }
 
-.aqui {
-
-    border-bottom: solid 3px;
-    border-radius: 20px;
-}
 
 h1 {
     font-size: 5em;
@@ -142,14 +137,14 @@ nav a:hover {
 }
 
 #b1 ul {
-        padding: 0;
-        margin: 0;
-    }
+    padding: 0;
+    margin: 0;
+}
 
 
 
 footer {
-    
+
     background-color: #F8F8F8;
     margin-bottom: 0;
     padding-bottom: 1%;
@@ -163,11 +158,11 @@ footer {
 
 footer li {
     list-style: none;
-    
+
 
 }
 
-footer ul{
+footer ul {
     padding: 0;
 }
 
@@ -189,9 +184,6 @@ footer p {
 
 }
 
-
-
-
 @media (max-width: 420px) {
     header {
         margin-top: 20%;
@@ -206,8 +198,6 @@ footer p {
     #content {
         padding-top: 55%
     }
-
-
 }
 
 @media (max-width: 780px) {
@@ -233,8 +223,8 @@ footer p {
         margin-top: 60%;
         padding-top: 20%;
     }
-    
-    nav li{
+
+    nav li {
         font-size: 17pt;
     }
 }
@@ -255,10 +245,10 @@ footer p {
 
 @media (min-width: 1025px) {
 
-    nav li{
+    nav li {
         font-size: 17pt;
     }
-    
+
 
     p.intro {
         font-size: 25pt;
