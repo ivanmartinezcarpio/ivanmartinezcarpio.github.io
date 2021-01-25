@@ -1,0 +1,16 @@
+.container-fluid {
+    
+    height: 30vh;
+    background-color: beige;
+}
+
+.container {
+    background-color: antiquewhite;
+    height: 50vh;
+}
+
+.content {
+    background-color: bisque;
+    height: 35vh;
+    margin-top: 10vh;
+}
