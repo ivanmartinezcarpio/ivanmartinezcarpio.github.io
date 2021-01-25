@@ -125,12 +125,13 @@ nav a:hover {
     top: 0;
     left: 0;
     width: 100%;
+    height: 6%;
     z-index: 99;
 }
 
 .parallax {
   
-  background-image: url("img/perfl.png");
+  background-image: url("img/perfil.jpg");
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
@@ -153,10 +154,7 @@ footer li{
         margin-top: 2%;
     }
 
-    nav li {
-        display: block;
-        margin: 2% 0 2% 0
-    }
+ 
 }
 
 @media (min-width: 1024px) {

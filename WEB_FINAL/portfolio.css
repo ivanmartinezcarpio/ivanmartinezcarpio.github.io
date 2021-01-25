@@ -17,26 +17,14 @@
     align-items: center;
 }
 
-#section1 {
+#section1, #section2, #section3, #section4, #section5 {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 6%;
 }
 
-#section2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 6%;
-}
 
-#section3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 6%;
-}
 
 h2 {
 
@@ -52,6 +40,7 @@ h2.logo2 {
 
 .proyecto {
     text-align: left;
+    margin-bottom: 7%;
 }
 
 .proyecto:hover p {
@@ -88,17 +77,9 @@ img:hover img{
         margin: auto;
     }
     
-    #section1 {
+    #section1, #section2, #section3, #section4, #section5 {
         flex-direction: column;
 
-    }
-    
-    #section2 {
-        flex-direction: column;
-    }
-    
-    #section3 {
-        flex-direction: column;
     }
     
     .block {
