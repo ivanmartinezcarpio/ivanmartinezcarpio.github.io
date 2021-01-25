@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 10%;
 }
 
 #section1, #section2, #section3, #section4, #section5 {
@@ -51,7 +52,7 @@ p {
     text-align: center;
     opacity: 0;
     margin-left: 3%;
-    font-size: 12pt;
+    font-size: 17pt;
     transition: 0.3s
 }
 
@@ -70,21 +71,52 @@ img:hover img{
     padding-top: 10%;
 }
 
+#b2 p {
+    opacity: 1;
+    text-align: left;
+    margin-left: 0
+}
+
+
+@media (max-width: 420px) {
+    p {
+        font-size: 12pt;
+    }
+    
+    #galeria {
+        padding-top: 55%
+    }
+}
+
+
+@media (max-width: 780px) {
+    
+    #galeria {
+        margin-top: 35%;
+        padding-top: 40%;
+    }
+    
+    
+}
+
 
 @media (max-width: 1024px) {
     
-    #galeria {
-        margin: auto;
-    }
+    
     
     #section1, #section2, #section3, #section4, #section5 {
         flex-direction: column;
+        align-items: center;
+        padding-right: 5%;
 
     }
     
     .block {
-        margin-bottom: 5%
+        margin-bottom: 5%;
+        
     }
+    
+   
     
     p {
         opacity: 1;
