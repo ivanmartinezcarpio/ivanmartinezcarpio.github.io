@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: Work Sans;
+    background-color: #F8F8F8;
 }
 
 body::-webkit-scrollbar {
