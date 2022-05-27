@@ -1,0 +1,29 @@
+ 
+    
+canvas
+{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+main {
+    position: absolute;  
+}
+
+
+header {
+   color: azure;
+   text-align: center;
+   padding-top: 16em;
+   padding-bottom:30em;
+
+   font-family: Russo One;
+}
+
+h1 {
+    
+    text-align: center;
+    size: 3em;
+}
